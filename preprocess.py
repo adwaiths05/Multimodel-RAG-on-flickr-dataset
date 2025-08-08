@@ -69,6 +69,7 @@ def main():
     captions_data, annotations = load_flickr30k_data(data_dir)
     processed_data, image_embeddings = generate_embeddings(data_dir, captions_data)
     save_processed_data(data_dir, processed_data, image_embeddings)
+    print("Preprocessing completed. Data saved in data/flickr30k_entities/processed/")
 
 if __name__ == "__main__":
     main()
