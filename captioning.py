@@ -69,3 +69,5 @@ def main():
     caption = generate_caption(args.image_path, retrieved_data)
     print(f"Generated Caption: {caption}")
 
+if __name__ == "__main__":
+    main()
